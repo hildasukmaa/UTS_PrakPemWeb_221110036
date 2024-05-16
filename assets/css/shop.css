@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7f8487;
+}
+
+.shop-label {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.shop-label h1 {
+  font-style: italic;
+  color: #fff;
+  font-weight: 800;
+  font-size: 55px;
+}
+
+.shop-satu {
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.shop-satu-text h5 {
+  color: #333;
+}
+
+.shop-satu-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.shop-satu-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.shop-satu-text2 h5,
+.shop-satu-text2 p {
+  color: #333;
+}
+
+.tiga-text {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.row tiga-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  flex: 0 1 calc(16.66% - 15px);
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  padding: 12px;
+}
+
+.card-title {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #27ae60;
+  margin: 10px 0;
+}
+
+.btn-primary {
+  background-color: #3b7efa;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #219150;
+}

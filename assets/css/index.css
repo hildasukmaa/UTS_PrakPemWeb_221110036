@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7f8487;
+}
+
+.container-satu {
+  margin-top: 50px;
+  margin-left: auto; /* Membuat container berada di tengah horizontal */
+  margin-right: auto; /* Membuat container berada di tengah horizontal */
+}
+
+.container-satu h3 {
+  text-align: center;
+}
+
+.container-satu h4 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.container-satu-text1 {
+  color: #fff;
+}
+
+.container-satu-text2 {
+  color: #fff;
+}
+
+/* Tambahkan CSS ini ke dalam bagian CSS Anda */
+
+.container-dua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff; /* Warna latar belakang */
+  margin-top: 40px;
+  height: 350px; /* Sesuaikan tinggi sesuai kebutuhan */
+  max-width: 1000px; /* Maksimum lebar container */
+  margin-left: auto; /* Membuat container berada di tengah horizontal */
+  margin-right: auto; /* Membuat container berada di tengah horizontal */
+  padding: 20px; /* Tambahkan ruang di sekitar konten */
+  border-radius: 10px; /* Border radius */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.container-dua-img {
+  margin-top: 10px; /* Sesuaikan dengan kebutuhan ruang antara section dan img */
+  border-radius: 5px;
+}
+
+.container-dua-img img {
+  float: left;
+}
+
+.container-dua-text h5 {
+  margin-left: 20px;
+  margin-right: 30px;
+  font-weight: 650;
+  font-size: 40px;
+  color: #333;
+}
+
+.container-dua-text p {
+  margin-right: 40px;
+  margin-left: 20px;
+  text-align: justify;
+  color: #333;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+}
+
+.container-tiga {
+  margin-top: 20px;
+}
+
+.row {
+  max-width: 1000px;
+  height: 40px;
+  margin-left: auto; /* Membuat container berada di tengah horizontal */
+  margin-right: auto; /* Membuat container berada di tengah horizontal */
+  background-color: #fff;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.col h6 {
+  background-color: #5356ff;
+  color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  font-weight: 450;
+}
+
+.container-empat {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto; /* Membuat container berada di tengah horizontal */
+  margin-right: auto; /* Membuat container berada di tengah horizontal */
+  max-width: 1200px; /* Maksimum lebar container */
+}
+
+.container-empat h5 {
+  color: #fff;
+}
+
+.container-empat-img {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-empat-img img {
+  margin: 10px;
+}
+
+.container-lima {
+  margin-top: 50px;
+  height: 1700px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff; /* Warna latar belakang */
+  padding: 10px; /* Tambahkan ruang di sekitar konten */
+  border-radius: 10px; /* Border radius */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.lima-konten-satu img {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.lima-konten-dua {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.dua-text1 h5 {
+  color: #333;
+  font-weight: 650;
+}
+
+.dua-text1 h4 {
+  color: #333;
+  font-weight: 400;
+}
+
+.dua-line {
+  margin-top: 40px;
+}
+
+.lima-konten-tiga {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.tiga-text {
+  color: #333;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.tiga-img {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.tiga-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card-img-top {
+  padding: 12px;
+}
+
+.empat-card {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 10rem;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.card-img-top-dua {
+  max-width: 140px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empat-img {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.empat-text {
+  color: #333;
+  text-align: center;
+  margin-top: 15px;
+}
